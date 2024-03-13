@@ -4,340 +4,280 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title></title>
-  <link href="css/style.css" rel="stylesheet" />
+  <title>Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<style>
-  .header {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-
-  }
-
-  .box {
-    list-style-type: none;
-    font-size: larger;
-  }
-
-  .list {
-    list-style-type: none;
-    display: flex;
-    font-size: larger;
-    width: 55%;
-  }
-
-  .tittle {
-    display: flex;
-    color: white;
-    justify-content: space-around;
-  }
-
-  .container {
-    background-color: #0C0C0C;
-    display: flex;
-
-  }
-
-.footer {
-  background-color: #19376D;
-    display: flex;
-    justify-content: space-around;
-}
-.contact{
-  font-size: 25px;
-    color: white;
-}
-</style>
-<div class="figma">
-
-  <body style=" background-color: #19376D">
-
-
-    <div class="header">
-
-      <ul class="box">
-        <li class="item"> Portfolio</li>
-      </ul>
-      <ul class="list">
-        <li class="About" ; style="width: 15%;">About </li>
-        <li class="Experience" style="width: 20%;">Experience</li>
-        <li class="Projects" style="width: 15%;">Projects</li>
-        <li class="Contact" style="width: 15%;">Contact</li>
-      </ul>
-
+<body class="bg-[#0B2447] text-white">
+  <div class="px-[188px] pt-[60px] flex justify-between">
+    <span class="font-semibold text-3xl">Porfolio </span>
+    <div class="flex gap-[47px] font-medium text-2xl">
+      <span> About</span>
+      <span>Experience </span>
+      <span> Projects</span>
+      <span>Contact</span>
     </div>
-
-    <div class="tittle">
-      <div class="item-title">
-        <h1>Hi. I'm Ada </h1>
-        <p>I’m a full-stack developer with 5 years<br>
-          of experience using React and NodeJS.<br>
-          Reach out if you’d like to learn more! </p>
-        <button class="button" ; style="height: 35px;
-        background: blue"> Contact Me </button>
-      </div>
-
-      <div class="img">
-        <img style="height: 301px;
-        width: 310px;"
-          src="https://s3-alpha-sig.figma.com/img/5da5/c27f/1f6af27cc37b1caa33eeff32059d8d96?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Sxknz911jddP088CeWkPmaxJPfA58fU1sXNyPi2IcU-v5Uiyip-7HBB3niJ3NskKHjixj6AHQRMx79drKkl9K9FKv0~Sui0xvdv-JpKWUepDxWqT31IHPFByuxaO~k5Xsgh~H1hMzJl-bTlrFmr32ma~VWOSxGhBI8u9n8ysJjq80vbJyrWkHL8~TbDLZclAUUR0niRsESRopfJnNeOgWhjGEW4AQmsewRv5197fvnXyKXKuDJhx16QLzu-FQhlcBZ7MbJnOB5a1bTnkvmPSwIjVIDJ68HyRmx7J6clgE6JjUcH1fp-rnn6Q7AwQWf47PYwgLV~yexk-2JcC8zSTUw__">
-
-      </div>
+  </div>
+  <div class="mt-[49px] px-[188px] flex items-center">
+    <div>
+      <h1 class="text-7xl font-extrabold">Hi, I'm Ada</h1>
+      <p class="mt-[33px] text-3xl">
+        I’m a full-stack developer with 5 years of experience using React and
+        NodeJS. Reach out if you’d like to learn more!
+      </p>
+      <button class="mt-[52px] bg-[#576CBC] px-[26px] py-[18px] rounded-full">
+        Contact Me
+      </button>
     </div>
+    <img src="./images/avatar.png" alt="avatar" class="w-[500px] h-[500px] rounded-full mt-[81px]" />
+  </div>
 
+  <div class="bg-black text-white mx-[132px] pt-[31px] px-[56px] py-[64px] ">
 
+    <p class="text-4xl font-bold">About</p>
 
-    <div class="container">
+    <div class="flex items-center">
 
-      <div class="container__about" ; style="color:aliceblue; font-size: 50px"> About </div>
-      <div class="img">
-        <img
-          src="https://s3-alpha-sig.figma.com/img/f80e/4d21/bb6fc49f7303f3ffb733c16acae12bb1?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GdSdPGuNYMUCb1Vtobg4Xgga5Vur2PXp6fX-eW960kdhAuILw9mUGCYSRNwvyxgpkAv4yTDz43Q7NghzBVP10zRXu8d07iZ7wnlv26VtCrYRWa10KLWvPy2akIoq636yjBe5~3grvtrPig5IEuKSVHmEgHLb-1TUgDCNofQ7R4gCfOuKg-ObFCQtdWWKPo2oKahjNai56L2lMNR79ybzHwp-O9hPO~y98jdmNx-mPXfO7PCZ553XMp-C8u-vep7aY25ec3-fdrUtPG3spjcWfmAq9XCFJl8oFUQ0EGzEZYZoiQ2BW0qm2FzNvtP~xOhWAmeii7RHaqHRNnvLijTmDA__">
-      </div>
+      <img src="./images/avatara-about.png" alt="avatara-about" />
 
-      <div class="list" style="    flex-direction: column;
-        ">
-        <div class="item__FD" ; style="color:white" ; height="35px" ; font-size="15px" ;>
-          <img style="height: 50px"
-            src="https://s3-alpha-sig.figma.com/img/412e/7c47/53dccb3c92a85f3a374b347ee10dfb0e?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ltmKcMuktAibn-jyPyEeEweIs1Be4LjGaciOGQz3GpdGZoW73e-LqW8FLFHCCePhCmDt6QN0HvAhAWWgifVwMPda9E~5aC581dS1VCV8JqNlbIxsDuTBmNix51qUn2aoycTPikiOa7mDpknrzGb6RnViqKF7v3aP~g2PBUfiNELP9ZGCEocM3Qa-UqpfBKkRw0mi828QdvrhiOZmdsISkos6vg16Ak77O-H2GY7RZQ14YblOrNkm8bvGpD7abC8lm4KZhc7YxnLY50nf1r2qep7-sSBCRkv09KSfc3HJ7rujt7nbKxVU9s15aymTCYHajfZg-Nsg3SiP5gfrAX1uhA__">
-          <h1>Frontend Developer </h1>
-          <p>I'm a front-end developer with experience<br>
-            in building responsive and optimized sites</p>
+      <div class="space-y-[50px]">
+
+        <div class="flex">
+          <img class="w-[50px] h-[50px]" src="./images/arrow.png" alt="arrow" />
+
+          <div>
+            <h1 class="text-base font-semibold ">Fronted developer</h1>
+            <p class="text-base font-semibold">I’m a front-end developer with experience
+              in building responsive and optimized sites</p>
+          </div>
         </div>
+        <div class="flex">
+          <img class="w-[50px] h-[50px]" src="./images/machine-body.png" alt="arrow" />
 
-
-        <div class="item__BD" style="color:white" ; font-size="15px">
-          <img style="height: 50px"
-            src="https://s3-alpha-sig.figma.com/img/a3ee/55b4/32f1104a12e4a792d8580696312bbeed?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gjv1Sn~nLTCeeYw11D84WEcBeC5~MnJPTuMcKrpMxrN2b5hsKq2LeQsWQ-40Z5auNrRKPZDbZHO3FQmU86duVwRtZF8hxE6ZUv2FmKB4KoJLTNziHR8Or1d8e~c8umiDSbTzztGN6~fbEoDNSjy8lmmO~DrP6Af3IRNilXulMgFCyklBEjkYh8D1hS5Qcj8-zE~6YiWhhdHG3IFrbx~QD7syMucw7IwSwr~7ubDDfTtRmp~5gEM5PO0EwNr0cZ4wO5m0HB5xoerVsnoyYnZJBOrUqPUfUjHc7mhRFLF3BlfaZNMUi1s9g7kA8gXSEImeiAuicl-vjptU7colhbpEFw__">
-          <h1> Backend Developer</h1>
-          <p>I have experience developing fast and<br>
-            optimised back-end systems and APIs </p>
-
+          <div>
+            <h1 class="text-base font-semibold ">Backend Developer</h1>
+            <p class="text-base font-semibold">I have experience developing fast and
+              optimised back-end systems and APIs</p>
+          </div>
         </div>
-        <div class="item__UID" style="color:white" ;font-size="15px">
-          <img style="height: 50px"
-            src="https://s3-alpha-sig.figma.com/img/f622/7c4d/7f44cc5d24d23f505241b07a810fe5ce?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X3oWDbYLXaNipwMHQp5kmZrdeEiCtMwqiHFEonk3XDXSrCnjw0K6BwJDnHLW-8ydG8oks9ZGFlsqjlPIJJ57WiFz8-PSHZwNkSMG~cHl-jwWZyfClcuTtbVwIU~eZgO-MmPr0mElJPHcDnb2pRopQl2PWO66g7np92RekryqkPi8ruieHslDdYN80SfQ8pUhRBxa3Kn0oEMpFjiO5dWPp~F8XMMzhSMi5cb7ToGF-TuLYq6mIOn~458fbPpB3LzHwq2Q1mo-rFYtAHQtzkoqPTk~brcGS8JmnkiFPer9AdyTorr~i-bWQOQVZ~xHxPqxAfFJHDXRaeAG3pBAiD6VxQ__">
-          <h1> UI Designer</h1>
-          <p>I have designed multiple landing pages and<br>
-            have created design systems as well</p>
+        <div class="flex">
+          <img class="w-[50px] h-[50px]" src="./images/board.png" alt="arrow" />
+
+          <div>
+            <h1 class="text-base font-semibold ">Fronted developer</h1>
+            <p class="text-base font-semibold">I’m a front-end developer with experience
+              in building responsive and optimized sites</p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="bg-[#0B2447] pt-[79px] pl-[188px] pr-[188px]">
 
 
-    <div class="container__exprience" , style="display: flex">
-      <div class="img_item" style="width: 60%;">
-
-        <div class="Experience" style="color: white;
-        font-size: 40px;"> EXPERIENCE </div>
-
-        <div class="img__top">
-
-          <img style="height: 100px;
-            width: 8%;"
-            src="https://s3-alpha-sig.figma.com/img/dca5/a23b/caa624e06dfa52ba75568ae3c7d73601?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=inpHufe-dduEI9lUUgxQ0dKBJmaxBvlQJN2HXK6bTc9zov-mtbl-eekdB5OKAxqYEZSAVc1Nr42x6mKB~w1Yj34oiWd-qro2tU3fPrbbYoZiz84fUs~uC50b2JJNrcr1gOSK3Y4RtXYD8ZwGLqXPX8tE2-GiVoYkdV557XCabXJpTqY4KP2kyq2r0zxuQYX-6VhES-E4MrX85Prg8pTJj~ZsWb9LJ0jQKsHTxT9sQ6c1O8Zd4Id9NNSxq1s4pDpd2UtoKUs8tS5-nXb1xVlvEBpDp9d96L1Xljkr4qZFjElvpgvaWN3PX0DNmG41wtPa~B1WfzphjM7ZE3j48P2jXg__">
-
-          <img style="height: 100px;
-            width: 8%;"
-            src="https://s3-alpha-sig.figma.com/img/db9c/1816/78aaad3db828c0c4a425461a8398ad80?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FsZL~R5KIAITcuEUsD2poqtonoUFIdMtt8uMWYkyPqctvapZMCph3Tqo153dUv2rgRxt-nWzWK-UC88qAwFrZ4bkPZt7J2gp3lXD7Pzt3Z2O7ZPa3V7UTNW8BR9z~d476nq~V5B~Nx3tAzy9fHYQUrgkuRc5AHA0PeuVExCxSQW1~VZsnhHZ-QZS2qo5gIdzsSSXMefPTvU58c1BSVh~6lCukfjXiqAyrTTp3rCEnZhXBl50U8nb5~~eIAZIYwqfSUaaEzeCBG4EB0b~QgoGR4ix3CXVOQq0axsEZPPR1NDpuLxghTCw8HjjUJw9PQkSxLfMpe3WWEGkAjkn3ZAN7w__">
-
-          <img style="height: 100px;
-           width: 8%;"
-            src="https://s3-alpha-sig.figma.com/img/c927/3a88/00e57e12d3b9e7f2bc2a0cb477640d85?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NcX6WzR8ms9L~BOjkCKKZZBGgl~AvmXm23exhUX85X7N~KT-z~38kOlpmT60jI~Y3IrMruQEhXDd6cyi80Ix9OfLmgZE1w28KuyDJAiwqmeIqwbycMWPwI2T7UuYNuR7Dw8ElPJo36djI4rovZaRAbNP55HzQaPYMu3uNed4ETW7aq7B0teOgUp-pPZBPwQbJc52FF8dS090Efho834oSjFml6JEaB4uBH26~nxO-TZfVYcOkJOlUkQB~hdbhM7jWuOwOmRygEDGaa9zGXkHYsAlYdJJowSLsJDsVJ2L8kpVN~XOMkrozTI0UrTMMURFr5kwgrCPSaweCL9SFAUnYQ__">
+    <p class="text-3xl font-bold">EXPRIENCE</p>
+    <div class="flex">
+      <div>
+        <div class="flex text-center">
+          <div class=" pb-[37px] pr-[37px] pt-[14px]">
+            <img class="bg-[#576CBC] pl-[22px] pt-[27px] pr-[23px] pb-[18px] " src="./images/html.png" alt="arrow"
+              style="border-radius: 50%">
+            <p class="text-center text-base">HTML</p>
+          </div>
+          <div class=" pb-[37px] pr-[37px] pt-[14px]">
+            <img class="bg-[#576CBC] pl-[22px] pt-[27px] pr-[23px] pb-[18px]" src="./images/css.png" alt="arrow"
+              style="border-radius: 50%">
+            <p class="text-center text-base">CSS</p>
+          </div>
+          <div class=" pb-[37px] pr-[37px] pt-[14px]">
+            <img class="bg-[#576CBC] pl-[22px] pt-[27px] pr-[23px] pb-[18px]" src="./images/react.png" alt="arrow"
+              style="border-radius: 50%">
+            <p class="text-center text-base">REACT</p>
+          </div>
         </div>
 
-        <div class="img__mid">
-          <img style="height: 100px;
-            width: 8%;"
-            src="https://s3-alpha-sig.figma.com/img/9217/ff3f/f65216047ec611ffbab54c7ef4937098?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fod~ZgzCXs3XecCeHWrRbuBUyAyP0EtcBAGolg4gya~a-Apg7hcPiRRllvxjVkYbkdlIWHKYKcGS8RskPCa2GUKUDgpOmm36D0ac~VbMAKSiWzeKQWejP4v4AL0BHxlW8d--x8FPNrdfwFTR~aAwe2KdOwQYvHxOyr3HFT9xk-9CRohj2VeN32MdeCDXood1YyeOpGFkbnWxGOuNclmaCLmwG4dPThF10hJEaXp2UchPezF2oS4UrN7mc8FlYzpgPnysdUb9itpebi2VY1Slf-9I-IWGLhHkHcVbOrPqLIbDgfcEPiGwthnnhP5FrqGPwqGsF-GAtPwxh6MaOr0vzg__">
-          <img style="height: 100px;
-            width: 8%;"
-            src="https://s3-alpha-sig.figma.com/img/50f6/6056/0387afd1f5b1c78f68ce504a173c02b5?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bq42OZgQyNTj6yrH9jwztQOYRcXVADbdtOWskMXrZZ1~lpWuWPABTB16eSaXNOJnW0FuPm~B2by4WeMLxNY9kIkDUQx~MfHU-SrhmjM0CdfQvL0VESxRIy12R7sgBvicIIOkvqeQ7MoIwQ8XcjQsYJcInBIiryEFUOnEqpxlBRV6zKGUrEuWmxAvWtYQDyQySKu-NQ7OuTedAHKWcwDZaGHJiwDIACm-oy4w99WWy~~~IA-lk2dR4WeWBF0VG3zi8AY~jc5uSG1yBDTRv44uhkeJoWx037BzvUp9c9avHuOEhHK7umGEt8~91GL9Me~-d6BG2Vp31Oa-bBBIg62K3w__">
-          <img style="height: 100px;
-            width: 8%;"
-            src="https://s3-alpha-sig.figma.com/img/aa47/e738/02d6579f821d1e73c8ff39058f86e03d?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K0zApqFIDVtytBMKoPybGfx6aNLf3KcLca4upMW~8XlY30XA9~Aw2JdUETxC8xjFV0CQ-2ff3PpNdso2LpXWWRWAleA3HcFwDQhPZbSDjYH4UH4fZHhA4IwW9WEuuXJ2U26Nc7KZspPuyIM3m~XhH3lq-3Od7IyD0p3VqwHhuBYd3ItWDW3sBaF56GmmEEnyChxYByJEnnpAhTEO~n7KnJb3F57L82i~Kh0GHvLAmRQklH5uGlmcUfnil0RLwa2My-bdnwl7QwvuBKyYqdnVdMC5xVEsXgbTZiyhpWNa1RhXP42WoaU6VxbZA-yBbBN~uny18lccFq-9WScLDKg~2A__">
+        <div class="flex text-center">
+          <div class="pb-[37px] pr-[37px] pt-[14px]">
+            <img class="bg-[#576CBC] pl-[22px] pt-[27px] pr-[23px] pb-[18px]" src="./images/node.png" alt="arrow"
+              style="border-radius: 50%">
+            <p class="">Node</p>
+          </div>
+          <div class=" pb-[37px] pr-[37px] pt-[14px]">
+            <img class="bg-[#576CBC] pl-[22px] pt-[27px] pr-[23px] pb-[18px]" src="./images/graph-ql.png" alt="arrow"
+              style="border-radius: 50%">
+            <p class="">GraphQL</p>
+          </div>
+          <div class=" pb-[37px] pr-[37px] pt-[14px]">
+            <img class="bg-[#576CBC] pl-[22px] pt-[27px] pr-[23px] pb-[18px]" src="./images/mongo-bd.png" alt="arrow"
+              style="border-radius: 50%">
+            <p class="">MongGO</p>
+          </div>
         </div>
 
-        <div class="img__bot">
-          <img style="height: 100px;
-            width: 8%;"
-            src="https://s3-alpha-sig.figma.com/img/938d/2d7c/e381fb5e71f76be7faa51e977ad2024f?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FJ3-~3mU2h7b9pK8fTnYT0BXZ9~FD-tCTmEIgjHMz4ChxT7g2O1T-zPdbNifdD9n3qMsvE7p-XOLOQ5Uq1xk-h6OYmSuliiV4OLJ-Yg11Slbsl21vbJZJu9jYIF36vlHdeOw5q3SZyks~5GbWLJlsu~hMvieqAjcMp6uLrkrv1qHGmBXr3cpYKzA24I-zYZnfmNk7PU2r4t4dY65iiVhR1~Hw3ayVgfx68azx0seTRlPkM5xlmX0qKRYr4cci3pQI0Y4x2a9q7K6YABJJ4pYmas~fijvhE~XTUS5WEpY68J3w2CHobrRPa0dqq5w0VKuE3wfI9rtvtvUkmqxDQaknQ__">
-        </div>
-      </div>
-
-
-      <div class="EXPERIENCE__item" style="color: white;">
-
-        <div class="item__SEG">
-          <img style="height: 50px;"
-            src="https://s3-alpha-sig.figma.com/img/c5e6/ad5b/c56efbaab6f32917c8708611dc826093?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BM3tTSg0taeKi96f~8hYsK2b1KdPubitpY1jWsxsAAe3SvncOuKbtUQJ5i1e9kOX9bgQz74KvDwbdNZgS3EdaHjnXTFRXXhep65SjSC9BsYmxDQB5g8HfOiKWDnrlSIgTOwCB86WgYwWg6huU60U7lw~iDWMMyJiFKFVnL3WtYaAUsF3G0sZMD7OExIn6agO32O4wDa~rmDw7M7dDiyx3FcfHFXrJWc4awvMGvYPmxXIJbWz8kqO9wu-0V635hIFKeM3JwD0Op7hUlBDW1WRefgQIz2s6R6U4YmiwqvhO9LqIJSYwBgwohf2HSHyIoASHK2kmAuEtAq7XmWSpdHoUg__">
-          <h1>Software Enginer, Google</h1>
-          <p> Sept, 2022 - Presen</p>
-          <li>Worked on Google Maps</li>
-          <li> Reduced load times by 50% </li>
-        </div>
-
-        <div class="item__UIDM">
-          <img style="height: 50px;"
-            src="https://s3-alpha-sig.figma.com/img/7cf1/a94f/468675d07a38c1f56ba5c8734958c446?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ilc62xEbZj-Ir49fOWVtOPgabsRsHYwsYGTVI-miiVfJwt260RX-MHcSBtYDdCMy~5iw-aPseVSy6mDqzEi~tEsX3R3H-6OuG1ojvRh71yjDMCPvYGKkeSwQT~WHk85jNjY4EpELiPZVMs6fdzzmw2LAHkJNsRBDOzxgGoRxma05uAEg6uIGI~dm3xAcCQc16k2KhAFVbbiFMmhOBhcfuzlsy2HZ7viXIIps90CPYIFhoeGXNpnNHff42Q7Buo5Co1c7JP77QEyFkih0v-ixH15YCZhcMUVTb8fFJcYdbC068A6zlBBTzOBDI~1GzYJS8LFUhbhKz84DUxkuyX4P3g__">
-          <h1>UI Designer, Microsoft</h1>
-          <p>Aug, 2021 - Aug, 2022</p>
-          <li>Worked on Windows 11</li>
-          <li>Designed the control panel</li>
-        </div>
-
-        <div class="item__SWE">
-          <img style="height: 50px;"
-            src="https://s3-alpha-sig.figma.com/img/0baa/f651/159ec9c6938cf4a6b1453ec99e3b9e2c?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ToiArg4bV2gh8S-tzbCCXva50Tm~X9ZXgUHxrmkd1NF6hY~1uzvBXbN6shkZHXL6tPmOs7fhNT16QPZ-rswAt5ZNoOLOXoGFk39vfeGS~FFkzJcQyMjNg-f~ZdaV3ecIEdGEb0J-paVXe3OVe510skuzXzbcZioyL3cWN7yD4nK4JTFpJcydzSFqI7NeoHeEOGnVrMaBVc2OruHN6NxeRYd9qMPAZY1-drR9dwN~PqNjUsM6ZqeqLGR6-Lyr-ai5uQ539852fqUjEE24OTrQ1dDJFP6saRM8d3yuP6NVOMtoogC7ytSIx0xEiq9EkkIFF8QgUtfWGvrI9wnMfo5Zuw__">
-          <h1>SWE Intern, Netflix</h1>
-          <p>Aug, 2021 - Aug, 2022</p>
-          <li> Worked on component library</li>
-          <li>Helped create UI components</li>
+        <div class="">
+          <img class="bg-[#576CBC] pl-[22px] pt-[27px] pr-[23px] pb-[18px]" src="./images/figma.png" alt="arrow"
+            style="border-radius: 50%">
+          <p class="">Figma</p>
         </div>
       </div>
 
+
+      <div>
+        <div class="flex pl-[55px] ">
+          <img class=" pl-[24px] pt-[55px] pb-[55px] pr-[10px]  text-align: center;" src="./images/google.png"
+            alt="arrow " />
+          <div class="">
+            <h1 class="text-3xl">Software Engineer, Google</h1>
+            <p class="text-sm">Sept, 2022 - Present</p>
+            <p>
+              <li class="text-base">Worked on Google Maps</li>
+              <li class="text-base">Reduced load times by 50%</li>
+            </p>
+          </div>
+        </div>
+        <div class="flex pl-[55px] ">
+          <img class=" pl-[24px] pt-[55px] pb-[55px] pr-[10px]  text-align: center;" src="./images/microsoft.png"
+            alt="arrow " />
+          <div class="">
+            <h1 class="text-3xl">UI Designer, Microsoft</h1>
+            <p class="text-sm">Aug, 2021 - Aug, 2022</p>
+            <p>
+              <li class="text-base">Worked on Windows 11</li>
+              <li class="text-base">Designed the control panel</li>
+            </p>
+          </div>
+        </div>
+        <div class="flex pl-[55px] ">
+          <img class=" pl-[24px] pt-[55px] pb-[55px] pr-[10px]  text-align: center;" src="./images/netflix.png"
+            alt="arrow " />
+          <div class="">
+            <h1 class="text-3xl">SWE Intern, Netflix</h1>
+            <p class="text-sm">Apr, 2020 - Jun, 2020</p>
+            <p>
+              <li class="text-base">Worked on component library</li>
+              <li class="text-base">Helped create UI components</li>
+            </p>
+          </div>
+        </div>
+      </div>
 
     </div>
 
+  </div>
+  <div class="  pt-[78px] px-[188px]" style="padding-bottom: 102px;">
+    <p class="text-3xl font-bold pb-[37px]"> PROJECT</p>
 
 
-    <div class="container">
-      <div class="container__project" style="color: white; width :250px; font-size: 31px" > Project </div>
-
-      <div class="project A" style="width: 449px;  height: 543px;border: black; background-color: #576CBC">
-
-        <img style="height: 300px;"
-          src="https://s3-alpha-sig.figma.com/img/e051/2a50/8c0200ebca5fee1e2d4f1ed103f86b82?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZV8sw5ftVFjM1mABYTwpzeLSa4Ckaee4wdrTyKzlDpVW1-wuiwGZalmmxXphXQTbcwnhFfpZtoLfCCGTqNDCuDIdoOJRIU1k06x77LFCvkLvQZHeXxRI7CowzKShuBmGeooKEYxbytrxodsZL8QOZNkBHlDLZVzQEmaLLPI~5ekmA1DPsdF-x9zRo7TvMcEFtb3TpOdCKP6-OnbgSz~xuhyOXR62bbQjxCIJPKWJk2VXM8guoG3GdURuh6En1Q01pXrhFw29FdIgLSLo22SQO0opj3tq4ZjYhUNpD0rIIv85v6svECbmroAS3y~7a07sWjSpnulGAof4xVV3ToCfGQ__">
-        <h1> Project A</h1>
-        <p>This is a project made to<br>
-          learn the latest languages<br>
+    <div class="flex ">
+      <div class="pr-[15px]">
+      <div class="bg-[#576CBC] w-[345px] h-[445px]" style="border-radius: 10px">
+        <img class="pt-[18px] pr-[23px] pl-[24px] " src="images/project-a.png" alt="Project"></img>
+        <h1 class="pt-[26px] pl-[15px] text-base font-bold"> PROJECT A</h1>
+        <p class="pt-[6px] pl-[15px] text-base font-semibold">This is a project made to
+          learn the latest languages
           by building an app.</p>
-        <div class="item" style="display: flex; justify-content: space-evenly;">
-          <p>React</p>
-          <p> Express</p>
-          <p>Node</p>
+
+        <div class="flex pr-[6px] flex-center pr-[10px] pt-[16px]  pl-[6px]" style="justify-content: space-between">
+          <p class=" text-center h-[36px] w-[90px] bg-[#0B2447] pr-[9px] " style="border-radius: 25px;">React</p>
+          <p class=" text-center h-[36px] w-[131px] bg-[#0B2447] pr-[9px]" style="border-radius: 25px;">Express</p>
+          <p class=" text-center h-[36px] w-[90px] bg-[#0B2447] pr-[9px]" style="border-radius: 25px;">Node</p>
         </div>
 
-        <div class="button" style="text-align: -webkit-center;">
-
-          <button style="height: 30px;
-          width: 90px;
-          background-color: blue;
-      "> Demo</button>
-          <button style="height: 30px;
-          width: 90px;
-          background-color: blue;
-      "> Source</button>
-       </div>
+        <div class="pt-[26px] pl-[39px] flex-center ">
+          <button class="bg-[#7F8CBC] h-[40px] w-[124px] text-3xl font-semibold"
+            style="border-radius: 10px;">Demo</button>
+          <button class="bg-[#7F8CBC] h-[40px] w-[124px] text-3xl font-semibold"
+            style="border-radius: 10px;">Source</button>
+        </div>
       </div>
+  </div>
 
-
-      <div class="project B" style="width: 449px; height: 543px;border: black; background-color: #576CBC">
-
-        <img style="height: 300px;"
-          src="https://s3-alpha-sig.figma.com/img/e051/2a50/8c0200ebca5fee1e2d4f1ed103f86b82?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZV8sw5ftVFjM1mABYTwpzeLSa4Ckaee4wdrTyKzlDpVW1-wuiwGZalmmxXphXQTbcwnhFfpZtoLfCCGTqNDCuDIdoOJRIU1k06x77LFCvkLvQZHeXxRI7CowzKShuBmGeooKEYxbytrxodsZL8QOZNkBHlDLZVzQEmaLLPI~5ekmA1DPsdF-x9zRo7TvMcEFtb3TpOdCKP6-OnbgSz~xuhyOXR62bbQjxCIJPKWJk2VXM8guoG3GdURuh6En1Q01pXrhFw29FdIgLSLo22SQO0opj3tq4ZjYhUNpD0rIIv85v6svECbmroAS3y~7a07sWjSpnulGAof4xVV3ToCfGQ__">
-        <h1> Project B</h1>
-        <p>This is a project made to<br>
-          learn the latest languages<br>
+    <div class="pr-[15px]">
+      <div class="bg-[#576CBC] w-[345px] h-[445px]" style="border-radius: 10px">
+        <img class="pt-[18px] pr-[23px] pl-[24px] " src="images/project-a.png" alt="Project"></img>
+        <h1 class="pt-[26px] pl-[15px] text-base font-bold"> PROJECT B</h1>
+        <p class="pt-[6px] pl-[15px] text-base font-semibold">This is a project made to
+          learn the latest languages
           by building an app.</p>
-        <div class="item" style="display: flex; justify-content: space-evenly;">
-          <p>React</p>
-          <p> Express</p>
-          <p>Node</p>
+
+        <div class="flex pr-[6px] flex-center pr-[10px] pt-[16px]  pl-[6px]" style="justify-content: space-between">
+          <p class=" text-center h-[36px] w-[90px] bg-[#0B2447] pr-[9px] " style="border-radius: 25px;">React</p>
+          <p class=" text-center h-[36px] w-[131px] bg-[#0B2447] pr-[9px]" style="border-radius: 25px;">Express</p>
+          <p class=" text-center h-[36px] w-[90px] bg-[#0B2447] pr-[9px]" style="border-radius: 25px;">Node</p>
         </div>
 
-        <div class="button" style="text-align: -webkit-center;">
-
-          <button style="height: 30px;
-          width: 90px;
-          background-color: blue;
-      "> Demo</button>
-          <button style="height: 30px;
-          width: 90px;
-          background-color: blue;
-      "> Source</button>
-       </div>
-      </div>
-      
-
-      
-      <div class="project C" style="width: 449px; height: 543px;border: black; background-color: #576CBC">
-
-        <img style="height: 300px;"
-          src="https://s3-alpha-sig.figma.com/img/e051/2a50/8c0200ebca5fee1e2d4f1ed103f86b82?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZV8sw5ftVFjM1mABYTwpzeLSa4Ckaee4wdrTyKzlDpVW1-wuiwGZalmmxXphXQTbcwnhFfpZtoLfCCGTqNDCuDIdoOJRIU1k06x77LFCvkLvQZHeXxRI7CowzKShuBmGeooKEYxbytrxodsZL8QOZNkBHlDLZVzQEmaLLPI~5ekmA1DPsdF-x9zRo7TvMcEFtb3TpOdCKP6-OnbgSz~xuhyOXR62bbQjxCIJPKWJk2VXM8guoG3GdURuh6En1Q01pXrhFw29FdIgLSLo22SQO0opj3tq4ZjYhUNpD0rIIv85v6svECbmroAS3y~7a07sWjSpnulGAof4xVV3ToCfGQ__">
-        <h1> Project C</h1>
-        <p>This is a project made to<br>
-          learn the latest languages<br>
-          by building an app.</p>
-        <div class="item" style="display: flex; justify-content: space-evenly;">
-          <p>React</p>
-          <p> Express</p>
-          <p>Node</p>
+        <div class="pt-[26px] pl-[39px] flex-center ">
+          <button class="bg-[#7F8CBC] h-[40px] w-[124px] text-3xl font-semibold"
+            style="border-radius: 10px;">Demo</button>
+          <button class="bg-[#7F8CBC] h-[40px] w-[124px] text-3xl font-semibold"
+            style="border-radius: 10px;">Source</button>
         </div>
-
-        <div class="button" style="text-align: -webkit-center;">
-
-          <button style="height: 30px;
-          width: 90px;
-          background-color: blue;
-      "> Demo</button>
-          <button style="height: 30px;
-          width: 90px;
-          background-color: blue;
-      "> Source</button>
-       </div>
       </div>
-
     </div>
 
-    </div>
 
-</div>
-
-
-
-
-
-
-
-<div class="footer" style="background-color: #19376D;">
+      <div class="pr-[15px]">
+        <div class="bg-[#576CBC] w-[345px] h-[445px]" style="border-radius: 10px">
+          <img class="pt-[18px] pr-[23px] pl-[24px] " src="images/project-a.png" alt="Project"></img>
+          <h1 class="pt-[26px] pl-[15px] text-base font-bold"> PROJECT C</h1>
+          <p class="pt-[6px] pl-[15px] text-base font-semibold">This is a project made to
+            learn the latest languages
+            by building an app.</p>
   
-  <div class="contact" >
-
-    <h1> CONTACT</h1>
-    <p>Feel free to reach out!</p>
+          <div class="flex pr-[6px] flex-center pr-[10px] pt-[16px]  pl-[6px]" style="justify-content: space-between">
+            <p class=" text-center h-[36px] w-[90px] bg-[#0B2447] pr-[9px] " style="border-radius: 25px;">React</p>
+            <p class=" text-center h-[36px] w-[131px] bg-[#0B2447] pr-[9px]" style="border-radius: 25px;">Express</p>
+            <p class=" text-center h-[36px] w-[90px] bg-[#0B2447] pr-[9px]" style="border-radius: 25px;">Node</p>
+          </div>
+  
+          <div class="pt-[26px] pl-[39px] flex-center ">
+            <button class="bg-[#7F8CBC] h-[40px] w-[124px] text-3xl font-semibold"
+              style="border-radius: 10px;">Demo</button>
+            <button class="bg-[#7F8CBC] h-[40px] w-[124px] text-3xl font-semibold"
+              style="border-radius: 10px;">Source</button>
+          </div>
+        </div>
+  
+      </div>
   </div>
-
-  <div class="box" style="color: white">
-
-    <div class="email">
-      <img style="height: 41px;
-      width: 45px;" src="https://s3-alpha-sig.figma.com/img/5a6b/a88d/97ae97decb684853296fda4281809347?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JFXu1B0~yuerPlPPociXZlXqbYwikqx43j7qF4rlAuXP9yHo2Rojm0iD61C1WYgcCkHbybxYW4OirIOp34hzpcp7W4kt1fYqFGBS26gRKoYYJZfk1Djs7x3Wp7P2vGpLNjtHoMq2IfICziSCDvgNcya2UqKWgJbXTPsN4IO0oDftv6UZYcYpOwRC8TABLeuwS1COFK5JC4a5ZgrJ7nHPwNgYijf6SCbRMsa~nvUA0XcRITIF8l3o4-JRBRYey0ezsYM2ZeKBuIyKq8ZDNLa03vt~CGfUh4uYOnHVEXtXDDSJXkKswA6zfJmyonilMQn-zscVFWVHgqseIysRJtOaCw__">
-      <p>myemail@email.com</p>
     </div>
 
-    <div class="inkeldin">
-      <img style="height: 41px;
-      width: 45px;" src="https://s3-alpha-sig.figma.com/img/6392/3f90/6c5a85a53abfe6a321cc76f134dd20b3?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NbUJtHbCUeasMlI66PfGCroZmKoGXg4IM~tUcqXN0OuF6TMop~JFWWbz2bR-Sc23wJM0QLEhGSjNJJfd4P5-GBGL-ZZslBWb3zsD57GbP0qQ76GF~tXm3TtA1PLS6kPM4if4~OJtafqJZ8Ak1WltM7-PDD8Rjsptnz9ghA~xfD~66eYX3iJ-Re21A0oSwVGcIjgyhT-pFDesp-EWi8C0kJ-Z58UeDYUl5b3fAH2lcniKa9SfXzV-T08vreLzX2CaMXow9SdcSr3YZsHYD0akzAIuGd076~aQvg8TKldlDACiab0uww-Xal8kbqLlWdqHLfTGRl~FpiTi-XKVvs5zQQ__">
-      <p>linkedin.com/myname</p>
+    <div class="pt-[102px] px-[188px] bg-[#19376D] pl-[183px] flex"> 
+
+      <div>
+        <h1 class=" font-bold text-7xl pb-[7px]"> Contact</h1>
+        <p class="pb-[82px] text-4xl font-medium" >Feel free to reach out!</p>
+      </div>
+
+
+      <div>
+
+        <div class="flex">
+          <img class="pl-[213px]" src="images/gmail.png" alt="gmail" />
+          <p class="pl-[25px] text-2xl "> myemail@email.com</p>
+        </div>
+
+        
+        <div class="flex">
+          <img class="pl-[213px]" src="images/ilink.png" alt="gmail" />
+          <p class="pl-[25px] text-2xl "> linkedin.com/myname</p>
+        </div>
+
+        
+        <div class="flex">
+          <img class="pl-[213px]" src="images/gitbub.png" alt="gmail" />
+          <p class="pl-[25px] text-2xl "> github.com/myname</p>
+        </div>
+      </div>
+  
     </div>
-    
-    <div class="github">
-      <img style="height: 41px;
-      width: 45px;" src="https://s3-alpha-sig.figma.com/img/7208/76e5/f9f1df2aaf1359665bb771e9a27c08bd?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N0EeZbhA8OJyNuUUN5NINGMa2TAyH45c9H4IzMpvno4eQurNZ85wHczJH0ofnqUcmDz1a8D6q1syS3O1SY1ebBR1rSiUnJWojTpKccETEQG1J2~pKgAwzLwkEhqQtYyMUz1hohoGQODOB2QPaTCKUne03ip0yQaXzEv4~-OoAus1Uk7YkBMICyktDye3AUIBWLpRebPXsUkfKjVK6BO3y4IQQddgWgSh9KMWLkVAmObQyMNje9b-Qf266pLIsz~RuadFXLcTeV3Si0tj6Y27QjDVA6QeXjrqNuk~YRLWbznN-Gt1ai4xjp9tBS8BOyJ-wTZzwXoZfEZsCgQqCzgGVw__">
-      <p>github.com/myname</p>
-
-    </div>
+   
 
 
-  </div>
 
 
-</div>
 
-</div>
 </body>
 
 </html>
